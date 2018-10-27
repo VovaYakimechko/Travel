@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body{
+    width: 1200px;
+	margin: 0 auto;
+	font-family: 'Josefin Sans'
+}
+a {
+   text-decoration: none;
+  }
+
+.bhromaon{
+	background: url(../img/bhromaon.png) no-repeat;
+	width: 100%;
+	height:780px; 
+	background-size: 100%;
+}
+.bhromaon__menu{
+	background: #5373fd;
+	display: flex;
+	flex-direction: row;
+	margin-top:50px;
+	height: 80px;
+	align-items:  center;
+}
+.bhromaon__head{
+	padding-top: 150px;
+	margin-left: 40%;
+	font-size: 42px;
+	letter-spacing: 5px;
+	line-height: 26px;
+	color: #ffffff;
+	font-family: "Josefin Sans";
+	font-weight: bold;
+
+}
+.bhromaon__desc{
+	padding-top: 11px;
+	margin-left: 40%;
+	font-size: 18px;
+	letter-spacing: 7px;
+	line-height: 26px;
+	color: #ffffff;
+	font-family: "Josefin Sans";
+}
+
+.bhromaon__search{
+    width: 350px;
+    height: 42px;
+    background-color: #ffffff;
+    margin-left: 30%;
+    margin-top: 15px;
+    padding-left: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    color: #ffffff;
+    border:none;
+    text-align: center;
+}
+.bhromaon__button{
+    width: 150px;
+    height: 42px;
+    background-color: #5373fd;
+    border: 2px solid #ffffff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    color: #ffffff;
+}
+.bhromaon__form{
+	font-size: 0;
+}
+.bhromaon__scroll{
+    font-size: 14px;
+	letter-spacing: 3px;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 150px;
+	line-height: 50px;
+	cursor: pointer;
+	width: 200px;
+	margin-left: 42%;
+		transition: .5s ease-out;
+}
+
+.bhromaon__menu--head{
+	font-size: 24px;
+letter-spacing: 2px;
+line-height: 26px;
+color: #ffffff;
+font-family: "Josefin Sans";
+font-weight: bold;
+margin-left: 10%;
+}
+
+.bhromaon__menu--item1{
+	font-size: 14px;
+line-height: 26px;
+color: #ffffff;
+font-family: "Aleo";
+margin-left: 22%;
+	transition: .5s ease-out;
+}
+.bhromaon__menu--item2{
+	font-size: 14px;
+line-height: 26px;
+color: #ffffff;
+font-family: "Aleo";
+margin-left: 5%;
+	transition: .5s ease-out;
+}
+.bhromaon__menu--item3{
+	font-size: 14px;
+line-height: 26px;
+color: #ffffff;
+font-family: "Aleo";
+margin-left: 5%;
+	transition: .5s ease-out;
+}
+.bhromaon__menu--item4{
+	font-size: 14px;
+line-height: 26px;
+color: #ffffff;
+font-family: "Aleo";
+margin-left: 5%;
+	transition: .5s ease-out;
+}
+
+.why{
+	background: url(../img/why.png) no-repeat;
+	height: 700px;
+}
+.why__block1{
+	width: 50%;
+float: left;
+display: inline-block;
+box-sizing: border-box;
+}
+.why__block2{
+	display: inline-block;
+	width: 50%;
+	box-sizing: border-box;
+}
+
+.why__head{
+	font-size: 36px;
+line-height: 26px;
+color: #ffffff;
+padding-left: 15%;
+padding-top:200px;
+}
+
+.why__desc{
+	width: 539px;
+height: 143px;
+font-size: 16px;
+letter-spacing: 2px;
+line-height: 26px;
+color: #e8e8e8;
+font-family: 'Josefin Sans';
+padding-top: 50px;
+padding-left: 15%;
+width: 500px;
+}
+
+.why__button{
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 26px;
+	color: #ffffff;
+	width: 225px;
+	background: #5373fd;
+	height: 40px;
+	margin-left: 15%;
+	margin-top: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+		transition: .5s ease-out;
+
+}
+
+.why__img1{
+	margin-top: 130px;
+	margin-left: 15%;
+}
+
+.why__img2{
+	margin-left: 35%;
+	margin-top: 5px;
+}
+
+.instruction{
+	background: #333333;
+	margin-top: -15px;
+	height: 300px;
+}
+
+.instruction__img1{
+	display: inline-block;
+	margin-left: 11%;
+	margin-top: 100px;
+}
+.instruction__img2{
+	display: inline-block;
+	margin-left: 11%;
+	margin-top: 100px;
+}
+.instruction__img3{
+	display: inline-block;
+	margin-left: 11%;
+	margin-top: 100px;
+}
+
+.instruction__points{
+	position: absolute;
+	margin-left: 14%;
+	margin-top: 70px;
+}
+
+.spain1{
+	background: url(../img/spain1.png) no-repeat;
+	height: 700px;
+}
+
+.spain1__block{
+	position: absolute;
+	background: #232323;
+	opacity: 0.7;
+	width: 500px;
+	height: 350px;
+	color: white;
+	margin-top: 200px;
+	margin-left: 15%;
+}
+
+.spain1__block--spain{
+font-size: 20px;
+letter-spacing: 2px;
+line-height: 26px;
+color: #e8e8e8;
+font-family: 'Josefin Sans';
+margin-left: 10%;
+margin-top: 40px;
+}
+
+.spain1__block--head{
+	font-size: 20px;
+line-height: 26px;
+color: #ffffff;
+font-family: 'Josefin Sans';
+margin-left: 10%;
+margin-top: 20px;
+
+}
+
+.spain1__block--desc{
+
+height: 65px;
+font-size: 16px;
+line-height: 26px;
+color: #e8e8e8;
+font-family: 'Josefin Sans';
+font-weight: lighter;
+margin-left: 10%;
+margin-top: 20px;
+}
+.spain1__block--button{
+	width: 150px;
+	height: 50px;
+	background:  #5373fd;
+	opacity: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10%;
+	margin-top: 50px;
+	transition: .5s ease-out;
+}
+
+
+.spain2__block{
+	position: absolute;
+	background: #232323;
+	opacity: 0.7;
+	width: 500px;
+	height: 350px;
+	color: white;
+	margin-top: 200px;
+	margin-left: 50%;
+}
+
+.spain2__block--spain{
+font-size: 20px;
+letter-spacing: 2px;
+line-height: 26px;
+color: #e8e8e8;
+font-family: 'Josefin Sans';
+margin-left: 10%;
+margin-top: 40px;
+}
+
+.spain2__block--head{
+	font-size: 20px;
+line-height: 26px;
+color: #ffffff;
+font-family: 'Josefin Sans';
+margin-left: 10%;
+margin-top: 20px;
+
+}
+
+.spain2__block--desc{
+
+height: 65px;
+font-size: 16px;
+line-height: 26px;
+color: #e8e8e8;
+font-family: 'Josefin Sans';
+font-weight: lighter;
+margin-left: 10%;
+margin-top: 20px;
+}
+.spain2__block--button{
+	width: 150px;
+	height: 50px;
+	background:  #5373fd;
+	opacity: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10%;
+	margin-top: 50px;
+}
+
+.spain2{
+	background: url(../img/spain2.png) no-repeat;
+	height: 700px;
+
+}
+
+.tourist{
+	background: url(../img/tourist.png) no-repeat;
+	height: 700px;
+}
+
+.tourist__block{
+	margin-top: 100px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.tourist_block--img{
+	float: left;
+	
+}
+
+.tourist__block--item{
+	background: #333333;
+	height: 230px;
+
+}
+
+.tourist--sam{
+	padding-top: 40px;
+	padding-left:400px;
+    font-size: 20px;
+line-height: 26px;
+color: #fefefe;
+font-family: "Josefin Sans";
+}
+.tourist--desc{
+	padding-left:400px;
+	padding-top: 20px;
+	width: 559px;
+	color: #fefefe;
+
+}
+
+.tourist__sp{
+	height: 137px;
+font-size: 36px;
+line-height: 26px;
+color: #5474fd;
+font-family: "Font Awesome";
+}
+
+.footer{
+	background: #232323;
+	height: 120px;
+}
+.footer__block{
+	background: #232323;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.footer__block--head{
+	font-size: 24px;
+letter-spacing: 3px;
+line-height: 26px;
+color: #ffffff;
+font-family: "Josefin Sans";
+font-weight: bold;
+}
+
+.footer__block--main{
+	font-size: 16px;
+letter-spacing: 2px;
+line-height: 26px;
+color: #ffffff;
+font-family: "Josefin Sans";
+text-align: center;
+}
+
+.tourist__what{
+	font-size: 36px;
+line-height: 26px;
+color: #ffffff;
+font-family: "Aleo";
+text-align: center;
+padding-top: 150px;
+}
+
+.bhromaon__button:hover{
+	background: blue;
+	cursor: pointer;
+}
+
+.bhromaon__scroll:hover{
+	-webkit-transform: scale(1.1);
+ 	-ms-transform: scale(1.1);
+transform: scale(1.1);
+
+}
+
+.bhromaon__menu--item1:hover{
+	color:blue;
+	-webkit-transform: scale(1.1);
+ 	-ms-transform: scale(1.1);
+transform: scale(1.1);
+
+	cursor: pointer;
+}
+.bhromaon__menu--item2:hover{
+	color:blue;
+	-webkit-transform: scale(1.1);
+ 	-ms-transform: scale(1.1);
+transform: scale(1.1);
+
+	cursor: pointer;
+}
+.bhromaon__menu--item3:hover{
+	color:blue;
+	-webkit-transform: scale(1.1);
+ 	-ms-transform: scale(1.1);
+transform: scale(1.1);
+
+	cursor: pointer;
+}
+.bhromaon__menu--item4:hover{
+	color:blue;
+	-webkit-transform: scale(1.1);
+ 	-ms-transform: scale(1.1);
+transform: scale(1.1);
+
+	cursor: pointer;
+}
+
+.why__button:hover{
+		background: yellow;
+		color:green;
+	-webkit-transform: scale(1.1);
+ 	-ms-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+.spain1__block--button:hover{
+-webkit-transform: scale(1.1);
+ 	-ms-transform: scale(1.1);
+transform: scale(1.1);
+cursor: pointer;
+}
+
+.spain2__block--button:hover{
+-webkit-transform: scale(1.1);
+ 	-ms-transform: scale(1.1);
+transform: scale(1.1);
+cursor: pointer;
+}
+
+.footer__block--icon:hover{
+	cursor: pointer;
+}
+
+
+
+
