@@ -2,27 +2,62 @@
    <html>
       <head>
           <meta charset="utf-8">
-          <link  rel="stylesheet" href="web/style.css">
-          <link  rel="stylesheet" href="web/normalize.css">
+		  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+		  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		  <link  rel="stylesheet" href="web/style.css">
+		  <link rel="stylesheet" href="css/normalize.css">
+		  <link rel="stylesheet" href="web/slick.css">
+		  <link rel="stylesheet" href="web/slick-theme.css">
+		  <link rel="stylesheet" href="css/direction-reveal.css">
+		  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&amp;subset=cyrillic" rel="stylesheet">
+		  <script src="js/bundle.js" defer></script>
           <link  rel="shortcut icon" href="img/favicon.ico">
 
           <title>Ekzamen</title>
 
-	<body link="white" vlink="white" alink="white" bgcolor="white">
-	<div class="bhromaon">
-		<div class="bhromaon__head">
+	  </head>
+	  <body link="white" vlink="white" alink="white" bgcolor="white">
+	  <script> var articleLink = '/scripts/animation/500-direction-reveal-poyavlyayuschiysya-kontent-pri-navedenii-v-napravlenii-dvizheniya.html';</script>
+
+      <div class="bhromaon container-fluid">
+		  <div class="row bhromaon-menu">
+			  <div class="menu">
+				  <div class="menu__icon">
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					  <span></span>
+				  </div>
+
+				  <div id="menu__links">
+					  <a class="menu__links-item" href="#top">HOME</a>
+					  <a class="menu__links-item" href="#about">ABOUT</a>
+					  <a class="menu__links-item" href="#works">WORKS</a>
+					  <a class="menu__links-item" href="#team">TEAM</a>
+					  <a class="menu__links-item" href="#map">MAP</a>
+				  </div>
+			  </div>
+		  </div>
+		<div class="row justify-content-center">
+		<div class="bhromaon__head col-9 col-md-3">
 			BHROMAON
 		</div>
-		<div class="bhromaon__desc">
-			Safe Travel Anywhere
 		</div>
-		<form action="" method="POST" class="bhromaon__form"> 
-		<input class="bhromaon__search" type="text" placeholder="Search Your Travel Destination" required="">
-		<input class="bhromaon__button" type="submit" value="SEARCH">
-			
-		</form>
+		<div class="row justify-content-center">
+			<div class="bhromaon__desc col-10 col-md-5">
+			Safe Travel Anywhere
+			</div>
+		</div>
+		 <div class="row">
+			 <div class="col-1 col-md-3"></div>
+			 <div class="col-6 col-md-4"><input class="bhromaon__search" type="text" placeholder="Search Your Travel Destination" required=""></div>
+			 <div class="col-4 col-md-2 bhromaon__button1"><input class="bhromaon__button" type="submit" value="SEARCH"></div>
+			 <div class="col-1 col-md-4"></div>
+		 </div>
+
 		<a href="#top"><div class="bhromaon__scroll">
-			Scroll Down <br><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9" width="15" height="9">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 9" width="15" height="9">
 	<style>
 		tspan { white-space:pre }
 		.shp0 { fill: #ffffff } 
@@ -30,62 +65,300 @@
 	<path id="1" class="shp0" d="M6.66,7.18l0.84,0.84l6.75,-6.82l-0.84,-0.84l-5.91,5.98l-5.91,-5.91l-0.84,0.84l3.37,3.37z" ></path>
 		</svg></div> </a>
 
-        <div class="bhromaon__menu">
-        	<div class="bhromaon__menu--head">
-        		BHROMAON
-        	</div>
-        	<div class="bhromaon__menu--item1"><a href="#top">
-        		WHO WE ARE
-			</a></div>
-        	<div class="bhromaon__menu--item2"><a href="#item2">
-        		WHAT WE DO
-        	</a></div>
-        	<div class="bhromaon__menu--item3"><a href="item3">
-        		TRAVEL WITH US
-        	</a></div>
-        	<div class="bhromaon__menu--item4"><a href="item4">
-        		CONTACT US
-        	</a></div>
-        </div>
+
+
+
+
 	</div>
 
-        <div class="why"><a name="top">
-        	<div class="why__block1">
-        	<div class="why__head">
-        		Why Choose Us
-        	</div>
-        	<div class="why__desc">
-        		Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of the momenфt, so blinded by desire, that they cannot foresee 
-                <br><p>
-				Ddislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that.
-			</div>
-			<div class="why__button">
-				EXPLORE PLACES
-			</div>
+
+
+
+
+	<div class="places container-fluid">
+		<div class="row">
+		<div class="col-4 col-md-2 places-button1">
+			<button value="submit" id="par" onclick="changeMarkerPosition()">Paris</button>
 		</div>
-		<div class="why__block2">
-			<div class="why__img1"><img  src="img/why2.png" width="300" height="200"></div>
-			<div class="why__img2"><img  src="img/why1.png" width="300" height="200"></div>
+			<div class="col-4 col-md-2 places-button2">
+			<button value="submit" id="mad" onclick="changeMarkerPosition2()">Madrid</button>
+			</div>
+			<div class="col-4 col-md-2 places-button1">
+			<button value="submit" id="ber" onclick="changeMarkerPosition3()">Berlin</button>
+			</div>
+			<div class="col-4 col-md-2 places-button2">
+			<button value="submit" id="lond" onclick="changeMarkerPosition4()">London</button>
+			</div>
+			<div class="col-4 col-md-2 places-button1">
+			<button value="submit" id="barc" onclick="changeMarkerPosition5()">Barcelona</button>
+			</div>
+			<div class="col-4 col-md-2 places-button2">
+			<button value="submit" id="pra" onclick="changeMarkerPosition6()">Praha</button>
 		</div>
+		<div id="map">
+
+		</div>
+
+	</div>
+	</div>
+
+
+		<div class="hotels container-fluid"><a name="port">
+			<div class="hotels-head">
+				Hotels
+			</div>
+
+			<div class="button group filters-button-group row justify-content-around">
+				<!--<div class="row justify-content-around">-->
+				<div class="button is-checked hotels-button col-6 col-md-3" data-filter="*">Europa</div>
+				<div class="button hotels-button col-6 col-md-3" data-filter=".Spain">Spain</div>
+				<div class="button hotels-button col-6 col-md-3" data-filter=".Germany">Germany</div>
+				<div class="button hotels-button col-6 col-md-3" data-filter=".Czech">Czech</div>
+				<div class="button hotels-button col-6 col-md-3" data-filter=".England">England</div>
+				<div class="button hotels-button col-6 col-md-3" data-filter=".France">France</div>
+				<!--</div>-->
+			</div></a>
+			<div class="grid container demo justify-content-center ">
+				<div class="direction-reveal direction-reveal--grid-bootstrap direction-reveal--demo-bootstrap row justify-content-center ">
+
+				<div class="">
+
+
+
+
+
+
+					<div class=" image Spain col-12 col-lg-3  justify-content-center">
+						<a href="#" class="direction-reveal__card">
+							<img src="img/spain1.jpg" alt="Изображение" class="img-fluid hotels-img">
+							<div class="direction-reveal__overlay">
+								<h3 class="direction-reveal__title">Hotel in Spain</h3>
+								<p class="direction-reveal__text">
+									Some info<br>
+									Some info <br>
+									Some info<br>
+									Some info
+								</p>
+							</div>
+						</a>
+					</div>
+
+					<div class=" image Spain col-12 col-lg-3">
+						<a href="#" class="direction-reveal__card">
+							<img src="img/spain2.jpg" alt="Изображение" class="img-fluid hotels-img">
+							<div class="direction-reveal__overlay">
+								<h3 class="direction-reveal__title">Hotel in Spain</h3>
+								<p class="direction-reveal__text">
+									Some info<br>
+									Some info <br>
+									Some info<br>
+									Some info
+								</p>
+							</div>
+						</a>
+					</div>
+
+
+
+
+
+
+
+					<div class=" image Spain col-12 col-lg-3">
+						<a href="#" class="direction-reveal__card">
+							<img src="img/spain3.jpg" alt="Изображение" class="img-fluid hotels-img">
+							<div class="direction-reveal__overlay">
+								<h3 class="direction-reveal__title">Hotel in Spain</h3>
+								<p class="direction-reveal__text">
+									Some info<br>
+									Some info <br>
+									Some info<br>
+									Some info
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class=" image Germany col-12 col-lg-3">
+						<a href="#" class="direction-reveal__card">
+							<img src="img/germany1.jpg" alt="Изображение" class="img-fluid hotels-img">
+							<div class="direction-reveal__overlay">
+								<h3 class="direction-reveal__title">Hotel in Germany</h3>
+								<p class="direction-reveal__text">
+									Some info<br>
+									Some info <br>
+									Some info<br>
+									Some info
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class=" image Germany col-12 col-lg-3">
+						<a href="#" class="direction-reveal__card">
+							<img src="img/germany2.jpg" alt="Изображение" class="img-fluid hotels-img">
+							<div class="direction-reveal__overlay">
+								<h3 class="direction-reveal__title">Hotel in Germany</h3>
+								<p class="direction-reveal__text">
+									Some info<br>
+									Some info <br>
+									Some info<br>
+									Some info
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class=" image Germany col-12 col-lg-3">
+						<a href="#" class="direction-reveal__card">
+							<img src="img/germany3.jpg" alt="Изображение" class="img-fluid hotels-img">
+							<div class="direction-reveal__overlay">
+								<h3 class="direction-reveal__title">Hotel in Germany</h3>
+								<p class="direction-reveal__text">
+									Some info<br>
+									Some info <br>
+									Some info<br>
+									Some info
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class=" image Czech col-12 col-lg-3">
+						<a href="#" class="direction-reveal__card">
+							<img src="img/austria1.jpg" alt="Изображение" class="img-fluid hotels-img">
+							<div class="direction-reveal__overlay">
+								<h3 class="direction-reveal__title">Hotel in Czech</h3>
+								<p class="direction-reveal__text">
+									Some info<br>
+									Some info <br>
+									Some info<br>
+									Some info
+								</p>
+							</div>
+						</a>
+					</div>
+
+					<div class=" image Czech col-12 col-lg-3">
+						<a href="#" class="direction-reveal__card">
+							<img src="img/austria2.jpg" alt="Изображение" class="img-fluid hotels-img">
+							<div class="direction-reveal__overlay">
+								<h3 class="direction-reveal__title">Hotel in Czech</h3>
+								<p class="direction-reveal__text">
+									Some info<br>
+									Some info <br>
+									Some info<br>
+									Some info
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class=" image Czech col-12 col-lg-3">
+						<a href="#" class="direction-reveal__card">
+							<img src="img/austria3.jpg" alt="Изображение" class="img-fluid hotels-img">
+							<div class="direction-reveal__overlay">
+								<h3 class="direction-reveal__title">Hotel in Czech</h3>
+								<p class="direction-reveal__text">
+									Some info<br>
+									Some info <br>
+									Some info<br>
+									Some info
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class=" image England col-12 col-lg-3">
+						<a href="#" class="direction-reveal__card">
+							<img src="img/italy1.jpg" alt="Изображение" class="img-fluid hotels-img">
+							<div class="direction-reveal__overlay">
+								<h3 class="direction-reveal__title">Hotel in England</h3>
+								<p class="direction-reveal__text">
+									Some info<br>
+									Some info <br>
+									Some info<br>
+									Some info
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class=" image England col-12 col-lg-3">
+						<a href="#" class="direction-reveal__card">
+							<img src="img/italy2.jpg" alt="Изображение" class="img-fluid hotels-img">
+							<div class="direction-reveal__overlay">
+								<h3 class="direction-reveal__title">Hotel in England</h3>
+								<p class="direction-reveal__text">
+									Some info<br>
+									Some info <br>
+									Some info<br>
+									Some info
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class=" image England  col-12 col-lg-3">
+						<a href="#" class="direction-reveal__card">
+							<img src="img/italy3.jpg" alt="Изображение" class="img-fluid hotels-img">
+							<div class="direction-reveal__overlay">
+								<h3 class="direction-reveal__title">Hotel in England</h3>
+								<p class="direction-reveal__text">
+									Some info<br>
+									Some info <br>
+									Some info<br>
+									Some info
+								</p>
+							</div>
+						</a>
+					</div>
+
+					<div class=" image France  col-12 col-lg-3">
+						<a href="#" class="direction-reveal__card">
+							<img src="img/France1.jpg" alt="Изображение" class="img-fluid hotels-img">
+							<div class="direction-reveal__overlay">
+								<h3 class="direction-reveal__title">Hotel in France</h3>
+								<p class="direction-reveal__text">
+									Some info<br>
+									Some info <br>
+									Some info<br>
+									Some info
+								</p>
+							</div>
+						</a>
+					</div>
+
+					<div class=" image France col-12 col-lg-3">
+						<a href="#" class="direction-reveal__card">
+							<img src="img/France2.jpg" alt="Изображение" class="img-fluid hotels-img">
+							<div class="direction-reveal__overlay">
+								<h3 class="direction-reveal__title">Hotel in France</h3>
+								<p class="direction-reveal__text">
+									Some info<br>
+									Some info <br>
+									Some info<br>
+									Some info
+								</p>
+							</div>
+						</a>
+					</div>
+
+					<div class=" image France col-12 col-lg-3">
+						<a href="#" class="direction-reveal__card">
+							<img src="img/France3.jpg" alt="Изображение" class="img-fluid hotels-img">
+							<div class="direction-reveal__overlay">
+								<h3 class="direction-reveal__title">Hotel in France</h3>
+								<p class="direction-reveal__text">
+									Some info<br>
+									Some info <br>
+									Some info<br>
+									Some info
+								</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			</div>
 		</a></div>
 
-		<div class="instruction"><a name="item2">
-			<div class="instruction__points">
-				<img src="img/points.png">
-			</div>
-			<div class="instruction__img1">
-				<img src="img/search.png">
-			</div>
-			<div class="instruction__img2">
-				<img src="img/select.png">
-			</div>
-			<div class="instruction__img2">
-				<img src="img/finger.png">
-			</div>
-		</a></div>
-
-		<div class="spain1"><a name="item3">
-			<div class="spain1__block">
+		<div class="spain1 container-fluid"><a name="item3">
+			<div class="row">
+				<div class="col-1"></div>
+			<div class="spain1__block col-12 col-md-5">
 				<div class="spain1__block--spain">
 					Spain
 				</div>
@@ -93,48 +366,99 @@
 					GRAND SPAIN MADRID
 				</div>
 				<div class="spain1__block--desc">
-					But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system
+
+					Our company has been working in the tourist services market for 17 years! During operation, the company has won the trust of thousands of tourists and a variety of agencies that have been cooperating with us for more than 10 years.
+				<p><br>Main office:
+
+					<br>c.Velazquez, 155, Madrid, 28002, España
+					<br>Phone: 91-562-22-64, 91-563-71-92 (around the clock)
+					<br>Working hours: 09.00-14.00, 16.00-19.00
 				</div>
-				<div class="spain1__block--button">
-					BOOK NOW
-				</div>
+			</div>
+				<div class="col-6"></div>
 			</div>
 		</a></div>
 
-				<div class="spain2">
-			<div class="spain2__block">
+				<div class="spain2 container-fluid">
+					<div class="row">
+					<div class="col-6"></div>
+			<div class="spain2__block col-12 col-md-5">
 				<div class="spain1__block--spain">
-					Spain
+					Germany
 				</div>
 				<div class="spain2__block--head">
-					GRAND SPAIN MADRID
+					Berlin
 				</div>
-				<div class="spain1__block--desc">
-					But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system
-				</div>
-				<div class="spain1__block--button">
-					BOOK NOW
-				</div>
+				<div class="spain2__block--desc">
+					Our company has been working in the tourist services market for 17 years! During operation, the company has won the trust of thousands of tourists and a variety of agencies that have been cooperating with us for more than 10 years.
+					<p><br>Main office:
+						<br>Address: Unter den Linden 63-65, 10117 Berlin, Germany
+						<br>Telephone: + (49 30) 229-11-10, + (49 30) 229-11-29, + (49 30) 226-511-83 (Consular Section)
+						<br>Mode of operation: Mon-Fri 08: 30-18: 00
+						</div>
+
 			</div>
+					<div class="col-1"></div>
+					</div>
 		</div>
 
-		<div class="tourist"><a name="item4">
+		<div class="tourist container-fluid"><a name="item4">
 			<div class="tourist__what">
-			What Our Tourist Say
+				Well-known people's response
 		</div>
-		<div class="tourist__block">
-		     <div class="tourist_block--img">
-			   <img src="img/touristback.png" width="370" height="230">
-		     </div>
-		     <div class="tourist__block--item">
+			<div class="tourist-slider">
+				<div class="tourist-slide1">
+		<div class="tourist__block row justify-content-center">
+<div class="tourist-photo col-7 col-md-3">
+			   <img src="img/trump.gif" class="tourist_block--img  ">
+</div>
+		     <div class="tourist__block--item col-7 col-md-6">
 		     	<div class="tourist--sam">
 		     		SAM SUMMON
 		     	</div>
 		     	<div class="tourist--desc">
-		     		 <span class="tourist__sp">"</span>But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain  But I must explain to you how all this mistaken idea of account to nai denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system was account  born and I account will give you a nai the complete account of the system
+		     		 But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain  But I must explain to you how all this mistaken idea of account to nai denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system was account  born and I account will give you a nai the complete account of the system
 		     	</div>
 		     </div>
 		 </div>
+				</div>
+
+				<div class="tourist-slide2">
+
+					<div class="tourist__block row justify-content-center">
+						<div class="tourist-photo col-7 col-md-3">
+							<img src="img/abram.gif" class="tourist_block--img ">
+						</div>
+						<div class="tourist__block--item col-7 col-md-6">
+							<div class="tourist--sam">
+								SAM SUMMON
+							</div>
+							<div class="tourist--desc">
+								But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain  But I must explain to you how all this mistaken idea of account to nai denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system was account  born and I account will give you a nai the complete account of the system
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="tourist-slide3">
+
+					<div class="tourist__block row justify-content-center">
+						<div class="tourist-photo col-7 col-md-3">
+							<img src="img/clarck.gif" class="tourist_block--img ">
+						</div>
+						<div class="tourist__block--item col-7 col-md-6">
+							<div class="tourist--sam">
+								SAM SUMMON
+							</div>
+							<div class="tourist--desc">
+								But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain  But I must explain to you how all this mistaken idea of account to nai denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system was account  born and I account will give you a nai the complete account of the system
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
 		</a></div>
 
 		 <div class="footer">
@@ -154,4 +478,22 @@
 		 			<img src="img/icon2.png">
 		 			<img src="img/icon1.png">
 		 		</div>
-			</div></body>
+			</div>
+
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	  </script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script async defer
+			src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
+	</script>
+	  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="js/direction-reveal.js"> </script>
+	<script src="main.js"></script>
+	  </body>
